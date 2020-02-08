@@ -28,7 +28,8 @@ I created this to avoid many firewall issues.
             server.ClientConnected += Server_ClientConnected;
             server.Start();
         }
-
+        
+        //On CLient Connected
         private async void Server_ClientConnected(object sender, ConnectionEventArgs e)
         {
             
